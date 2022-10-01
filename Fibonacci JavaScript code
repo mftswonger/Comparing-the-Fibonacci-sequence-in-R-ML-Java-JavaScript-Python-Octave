@@ -5,7 +5,7 @@ function myfib2(thresh) {
   fiba = 1;
   fibb = 1;
   document.write (fiba + ", " + fibb + ", ");
-  while(fibb <= 150) {
+  while(fibb <= thresh) {
     temp = fiba + fibb;
     fiba = fibb;
     fibb = temp;
